@@ -625,16 +625,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 
 [[package]]
-name = "fungible-token-interface-example"
-version = "0.0.1"
-dependencies = [
- "soroban-sdk 22.0.8",
- "stellar-fungible",
- "stellar-pausable",
- "stellar-pausable-macros",
-]
-
-[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1666,50 +1656,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "stellar-fungible"
-version = "0.3.0"
-source = "git+https://github.com/OpenZeppelin/stellar-contracts?tag=v0.3.0#659fcabdc0e4712254dfebe4f45efd54f49826e9"
-dependencies = [
- "soroban-sdk 22.0.8",
- "stellar-constants",
-]
-
-[[package]]
-name = "stellar-macro-helpers"
-version = "0.3.0"
-source = "git+https://github.com/OpenZeppelin/stellar-contracts?tag=v0.3.0#659fcabdc0e4712254dfebe4f45efd54f49826e9"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn 2.0.101",
-]
-
-[[package]]
 name = "stellar-non-fungible"
 version = "0.3.0"
 source = "git+https://github.com/OpenZeppelin/stellar-contracts?tag=v0.3.0#659fcabdc0e4712254dfebe4f45efd54f49826e9"
 dependencies = [
  "soroban-sdk 22.0.8",
  "stellar-constants",
-]
-
-[[package]]
-name = "stellar-pausable"
-version = "0.3.0"
-source = "git+https://github.com/OpenZeppelin/stellar-contracts?tag=v0.3.0#659fcabdc0e4712254dfebe4f45efd54f49826e9"
-dependencies = [
- "soroban-sdk 22.0.8",
-]
-
-[[package]]
-name = "stellar-pausable-macros"
-version = "0.3.0"
-source = "git+https://github.com/OpenZeppelin/stellar-contracts?tag=v0.3.0#659fcabdc0e4712254dfebe4f45efd54f49826e9"
-dependencies = [
- "proc-macro2",
- "quote",
- "stellar-macro-helpers",
- "syn 2.0.101",
 ]
 
 [[package]]
